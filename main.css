@@ -1,9 +1,18 @@
+body {
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
 header {
 	height: 80px;
 	width: 100%;
+	text-align: center;
+	/*Center-Align the contents of the header*/
 }
 
 .img {
 	height: 35px;
+	display: inline-block;
+	margin: 0 auto;
 }
 
