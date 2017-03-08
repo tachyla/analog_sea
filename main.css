@@ -2,6 +2,10 @@ body {
 	margin: 0 auto;
 	padding-top: 100px;
 }
+main {
+	text-align: center;
+
+}
 
 header {
 	height: 80px;
@@ -9,6 +13,10 @@ header {
 	text-align: center;
 	/*Center-Align the contents of the header*/
 }
+footer {
+	text-align: center;
+}
+
 
 .img {
 	height: 35px;
@@ -16,3 +24,6 @@ header {
 	margin: 0 auto;
 }
 
+.signup {
+	
+}
