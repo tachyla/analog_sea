@@ -6,19 +6,41 @@
 </head>
 
 <body>
-	<header>contains logo</header>
+	<header>
+		<img src="images/logo.png">
+	</header>
 
 	<main>
-		<header>Sign Up</header>
+		<header>
+			<h1>Sign Up</h1>
+		</header>
 
-		<section>input fields</section>
+		<section>
+			<form action="/signup/" method="post">
+				<fieldset name="sign-up-fields">
+				<!-- this adds a border around both email & password fields: undesirable -->
+				<li>
+					<label for="email" required>Email</label>
+					<input type="email" name="username" id="email" placeholder="foo@bar.com">
+				</li>
 
-		<section>submit button</section>
+				<li>
+					<label for="password" required>Password</label>
+					<input type="password" name="password" id="password" placeholder="1234passw0rd">
+				</li>
+				</fieldset>
+		</section>
 
-		<section><a href="#">Forgot Password</a></section>
+		<section>
+			<form action="/signup/" method="post">
+				<label for="submit"></label>
+				<input type="submit" name="sign-up" id="submit" value="Sign Up">
+		</section>
+
+		<a href="/forgot-password/new">Forgot Password?</a></section>
 	</main>
 
-	<footer>Already have a account? <a href="#">Log in</a></footer>
+	<footer>Already have an account? <a href="/login">Log in</a></footer>
 
 
 
