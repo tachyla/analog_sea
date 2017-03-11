@@ -5,19 +5,15 @@ body {
 	margin: 0 auto;
 	padding-top: 100px;
 }
-main {
-	text-align: center;
-
-}
-
 header {
 	height: 80px;
 	width: 100%;
 	text-align: center;
-	/*Center-Align the contents of the header*/
 }
+main {
+}
+
 footer {
-	text-align: center;
 }
 
 
@@ -26,7 +22,25 @@ footer {
 	margin: 0 auto;
 }
 
-.signup {
-	/*container of signup elements*/
+.createacct {
+	background: white;
 }
+
+.createacct form li {
+	list-style: none;
+}
+
+.createacct, 
+.button,
+.forgot, 
+footer {
+	text-align: center;
+}
+
+/*.signup {
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+}	*/
+
 
