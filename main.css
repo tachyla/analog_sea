@@ -10,12 +10,16 @@ header {
 	width: 100%;
 	text-align: center;
 }
-main {
+.createacct h2 {
+	text-align: center;
 }
 
-footer {
+footer,
+footer a {
+	color: white;
+	font-weight: bold;
+	text-align: center;
 }
-
 
 .img {
 	height: 35px;
@@ -26,19 +30,14 @@ footer {
 	background: white;
 	width: 400px;
 	padding-left: 40px;
-	padding-right: 40px; 
+	padding-right: 40px;
+	margin: 0 auto; 
 }
 
 .createacct form li {
 	list-style: none;
 }
 
-.createacct, 
-.button,
-.forgot, 
-footer {
-	margin: 0 auto;
-}
 
 
 
