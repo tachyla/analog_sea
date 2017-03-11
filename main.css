@@ -24,6 +24,9 @@ footer {
 
 .createacct {
 	background: white;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px; 
 }
 
 .createacct form li {
@@ -34,13 +37,8 @@ footer {
 .button,
 .forgot, 
 footer {
-	text-align: center;
+	margin: 0 auto;
 }
 
-/*.signup {
-	width: 400px;
-	padding-left: 40px;
-	padding-right: 40px;
-}	*/
 
 
