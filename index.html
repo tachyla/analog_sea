@@ -13,7 +13,7 @@
 
 	<main>
 		
-		<section>
+		<section class="createacct">
 			<h2>Sign Up</h2>
 			<!-- Does this element need to be in a header element?  -->
 			<form action="/signup/" method="post">
@@ -29,20 +29,21 @@
 					<input type="password" name="password" id="password" placeholder="1234passw0rd">
 				</li>
 				</fieldset>
+				
+			<section class="button">
+				<form action="/signup/" method="post">
+					<label for="submit"></label>
+					<input type="submit" name="sign-up" id="submit" value="Sign Up">
+			</section>
+
+			<section class="forgot">
+				<a href="/forgot-password/new">Forgot Password?</a>
+			</section>
 		</section>
 
-		<section>
-			<form action="/signup/" method="post">
-				<label for="submit"></label>
-				<input type="submit" name="sign-up" id="submit" value="Sign Up">
-		</section>
-
-		<a href="/forgot-password/new">Forgot Password?</a></section>
+		
 	</main>
 
 	<footer>Already have an account? <a href="/login">Log in</a></footer>
-
-
-
 </body>
 </html>
