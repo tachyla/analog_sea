@@ -12,13 +12,11 @@
 	</header>
 
 	<main>
-		
 		<section class="createacct">
-			<h2>Sign Up</h2>
-			<!-- Does this element need to be in a header element?  -->
+			<h2>Sign up</h2>
 			<form action="/signup/" method="post">
 				<fieldset name="sign-up-fields">
-				<!-- this adds a border around both email & password fields: undesirable -->
+				<!-- field set gave me a border that was undedirable. Solution-set the border:transparent -->
 				<li>
 					<label for="email" required>Email</label>
 					<input type="email" name="username" id="email" placeholder="foo@bar.com">
@@ -40,7 +38,6 @@
 				<a href="/forgot-password/new">Forgot Password?</a>
 			</section>
 		</section>
-
 	</main>
 
 	<footer>Already have an account? <a href="/login">Log in</a></footer>
