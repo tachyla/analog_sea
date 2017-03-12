@@ -57,13 +57,12 @@ footer a {
 }
 .createacct form li:last-child input {
 	margin: 10px;
-	background-color: green;
-	width: 320px;
-	height: 55px;
-	border: 2px solid lightgray;
 	border-style: none;
-	padding: 15px;
-	/*absolute position the submit button*/
+	background-color: #5AC891;
+	color: white;
+	font-size: 18px;
+	/*absolute position the submit button
+	stretch the position of the submit button*/
 }
 .createacct h5 {
 	text-align: center;
