@@ -32,7 +32,7 @@ footer a {
 	margin: 0 auto; 
 }
 .createacct fieldset {
-	border: transparent;
+	border: none;
 }
 .createacct h2 {
 	text-align: center;
@@ -43,6 +43,8 @@ footer a {
 }
 .createacct form li {
 	list-style: none;
+	display: block;
+	width:100%;
 }
 .createacct form li label {
 	display: block;
