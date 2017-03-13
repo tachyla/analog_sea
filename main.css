@@ -1,3 +1,6 @@
+* { box-sizing: border-box; 
+}
+
 html {
 	background-color: #4286f4;
 }
@@ -41,23 +44,21 @@ footer a {
 .create form {
 	margin-top: 10px;
 }
-.createacct form li {
-	list-style: none;
+form label,
+form input {
 	display: block;
 	width:100%;
 }
-.createacct form li label {
-	display: block;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-.createacct form li input {
-	width: 320px;
-	height: 55px;
+
+form input {
+	margin-top: 15px;
+	margin-bottom: 15px;
 	border: 2px solid lightgray;
-	padding: 15px;
+	height: 55px;
+	padding: 15px; 
 }
-.createacct form li:last-child input {
+
+/*.createacct form li:last-child input {
 	margin: 10px;
 	border-style: none;
 	background-color: #5AC891;
