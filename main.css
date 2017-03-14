@@ -37,10 +37,7 @@ footer a {
 .createacct fieldset {
 	border: none;
 }
-.createacct h2 {
-	text-align: center;
-	color: gray; 
-}
+
 .create form {
 	margin-top: 10px;
 }
@@ -57,23 +54,18 @@ form input {
 	height: 55px;
 	padding: 15px; 
 }
+.createacct h1,
+.createacct p {
+	text-align: center;
+	color: gray; 
+}
 
-/*.createacct form li:last-child input {
-	margin: 10px;
+input[type="submit"] {
 	border-style: none;
 	background-color: #5AC891;
 	color: white;
 	font-size: 18px;
-	/*absolute position the submit button
-	stretch the position of the submit button*/
 }
-.createacct h5 {
-	text-align: center;
-}
-.createacct h5 a {
-	color: gray;
-}
-
 
 
 
